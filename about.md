@@ -1,6 +1,7 @@
 layout: default
-title: "About"
+title: About
 permalink: /about
+nav_order: 2
 
 ## About me
 
