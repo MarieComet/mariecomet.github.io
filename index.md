@@ -7,10 +7,17 @@ permalink: /
 last_modified_date: 2020-07-27T17:54:08+0000
 ---
 
-## Welcome to my GitHub Page
+## What will you find here? 
 
-Blabla
+I use this space to store my personal resources about WordPress development, Elementor, and front-end integration.
 
-### Summary
+## Why?
 
-- [About](https://mariecomet.github.io/about).
+Because it's no fun to search for something on Google and end up on your own blog. When you have a bad memory, you can write documentation!
+
+## Navigation
+
+- [About](/about)
+- [WordPress](/docs/wordpress)
+	- [Elementor](/docs/wordpress/elementor)
+- [Front-End]('/docs/front-end')
