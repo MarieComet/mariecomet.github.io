@@ -5,6 +5,4 @@ Blabla
 
 ### Summary
 
-- Page 1
-  - Page 1.1
-- Page 2
+- [About](https://mariecomet.github.io/about).
