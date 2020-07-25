@@ -1,8 +1,8 @@
 layout: page
-title: "Home"
-permalink: /
+title: "About"
+permalink: /about
 
-## Welcome to my GitHub Page
+## About me
 
 Blabla
 
