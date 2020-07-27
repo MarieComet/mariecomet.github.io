@@ -7,12 +7,6 @@ permalink: /docs/wordpress/elementor
 ---
 
 # Elementor
-
-## Navigation Structure
 {: .no_toc }
 
-### Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+helpers and memos of the most common actions taken to change Elementor's behaviour
