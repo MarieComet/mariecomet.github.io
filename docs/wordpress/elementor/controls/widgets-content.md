@@ -4,6 +4,7 @@ title: Widgets Content
 parent: Elementor
 grand_parent: WordPress
 permalink: /docs/wordpress/elementor/widgets-content
+nav_order: 2
 ---
 
 # Widgets Content

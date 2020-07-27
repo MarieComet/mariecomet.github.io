@@ -4,6 +4,7 @@ title: Elementor Controls
 parent: Elementor
 grand_parent: WordPress
 permalink: /docs/wordpress/elementor/controls
+nav_order: 1
 ---
 
 # Elementor Controls
