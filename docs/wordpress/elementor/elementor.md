@@ -2,6 +2,7 @@
 layout: default
 title: Elementor
 parent: WordPress
+has_children: true
 permalink: /docs/wordpress/elementor
 ---
 
