@@ -21,6 +21,7 @@ I use this space to store my personal resources about WordPress development, Ele
 		- [Editor Styles](/docs/wordpress/elementor/editor-styles)
 	- [Menus](/docs/wordpress/menus)
 - [Front-End]('/docs/front-end')
+	- [Tabs]('/docs/front-end/tabs')
 
 
 ## Why?
