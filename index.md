@@ -20,8 +20,8 @@ I use this space to store my personal resources about WordPress development, Ele
 		- [Widgets Content](/docs/wordpress/elementor/widgets-content)
 		- [Editor Styles](/docs/wordpress/elementor/editor-styles)
 	- [Menus](/docs/wordpress/menus)
-- [Front-End]('/docs/front-end')
-	- [Tabs]('/docs/front-end/tabs')
+- [Front-End](/docs/front-end)
+	- [Tabs](/docs/front-end/tabs)
 
 
 ## Why?
