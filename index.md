@@ -20,4 +20,7 @@ Because it's no fun to search for something on Google and end up on your own blo
 - [About](/about)
 - [WordPress](/docs/wordpress)
 	- [Elementor](/docs/wordpress/elementor)
+		- [Controls](/docs/wordpress/elementor/controls)
+		- [Widgets Content](/docs/wordpress/elementor/widgets-content)
+		- [Editor Styles](/docs/wordpress/elementor/editor-styles)
 - [Front-End]('/docs/front-end')
