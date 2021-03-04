@@ -5,7 +5,7 @@ parent: Front-End
 permalink: /docs/front-end/modal
 ---
 
-# Tabs
+# Modal
 {: .no_toc }
 
 ## Table of contents
