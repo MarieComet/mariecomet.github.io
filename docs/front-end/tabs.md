@@ -19,6 +19,9 @@ Accessible tabs with keyboard support.
 
 Code from [W3.org](https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-1/tabs.html)
 
+### Demo
+https://codepen.io/mariecomet/pen/gOPyVga
+
 ### JS
 
 [Link to JS file](assets/js/tabs.js)
