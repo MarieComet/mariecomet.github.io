@@ -105,3 +105,15 @@ function prefix_custom_menu_title( $title, $item ) {
 }
 add_filter( 'nav_menu_item_title', 'prefix_custom_menu_title', 10, 2 );
 ```
+
+## Replace a tag and href by span for menu items that have "#" for URL
+
+```
+add_filter( 'walker_nav_menu_start_el','mc_remove_blank_menu_items_links', 10, 4 );
+function mc_remove_blank_menu_items_links( $item_output, $item, $depth, $args ) {
+	if ( $item->url == '#' ) {
+		return preg_replace('/<a href\=".*" (.*)>(.*)<\/a>/U', '<span $1>$2</span>', $item_output);
+	}
+	return $item_output;
+}
+```
