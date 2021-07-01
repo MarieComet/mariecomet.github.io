@@ -115,5 +115,28 @@ function update_button_align_control( $element, $args ) {
 add_action( 'elementor/element/button/section_style/after_section_end', 'update_button_align_control', 10, 2 );
 ```
 
+## Insert / Update control inside existing repeater widget
+Example: add custom image control in Slides repeat Widget
+```
+public function add_control_widget_slides_image( $element, $args ) {
+	// Get slides control
+	$control_data = \Elementor\Plugin::instance()->controls_manager->get_control_from_stack( $element->get_unique_name(), 'slides' );
+	if ( is_wp_error( $control_data ) ) {
+		return;
+	}
+	// Access and modify the repeater fields as an array
+	$control_data['fields']['image'] = [
+		'name' => 'image',
+		'label' => __( 'Image de supperposition', 'textdomain' ),
+		'type' => \Elementor\Controls_Manager::MEDIA
+	];
+
+	// Update de main slides control
+	$element->update_control( 'slides', $control_data );
+}
+add_action( 'elementor/element/slides/section_slides/before_section_end', 'add_control_widget_slides_image', 10, 2 );
+```
+
+
 ## Related Elementor documentation
 - [PHP hooks > Editor Actions](https://code.elementor.com/php-hooks/#Editor_Actions)
